@@ -7,11 +7,9 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 700px ;
 }
   
-
-
-
 
 .left-bar,
 .right-bar,
@@ -23,35 +21,40 @@ body {
 
 .left-bar {
   float: left;
-  height: 800px;
+  height: 600px;
   width: 350px;
   margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
-  border: 2px solid red;
+  padding: 10px 10px 10px 10px;  
+  position: relative;
+  bottom: 160px;
 }
 
 
 .right-bar {
   float: left;
-  height: 800px;
-  margin-left: 40px;
-  width: 300px;
-  padding: 10px 10px 10px 10px;
-  border: 2px solid red;
+  height: 600px;
+  margin-left: 10px;
+  width: 500px;
+  position: relative;
+  bottom: 160px;
 }
 
 
-.footer {
- border: 2px solid red;
- height: 200px;
- clear: both;
-justify-content: center;}
+footer {
+  font-size: 25px;
+  color: #06365f;
+  position: relative;
+  top: 400px;
+  right: 400px;
+  text-align: center;
+}
 
 
 html {
   background-color: white;
   background-size: auto 50px;
-  border: 2px solid red;
+  height: 800px;
+  width: 1000px;
 }
 
 
@@ -64,3 +67,36 @@ html {
   padding-top: 10px;
   width: 100%;
 }
+
+
+.caja {
+background-color: white;  
+border-radius: 3%;
+padding: 10px 10px 10px 10px;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: white;
+  color: #06365f;
+  float: left;
+  text-align: center;
+  width: 5em;
+}
+
+
+.boton {
+background-color: #1c5380;
+height: 60px;
+width: 80px;
+color: white;
+border-radius: 6px;
+font-size: 20px;
+}
+
+
+
